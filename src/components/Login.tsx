@@ -34,7 +34,7 @@ const Login: FC = () => {
     <>
       <div className={`login-screen ${theme}`}>
         <div className="login-card ">
-          <h4 className="welcome-text">Welcome to Satuhaz's Todo App</h4>
+          <h4 className="welcome-text">Welcome to Saddam Task Manager App</h4>
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="username-container">
               <FaUser className="user-icon" />
@@ -48,7 +48,7 @@ const Login: FC = () => {
                 }}
               />
             </div>
-            <button className="login-btn ">COME IN !</button>
+            <button className="login-btn ">Log In</button>
           </form>
         </div>
       </div>
